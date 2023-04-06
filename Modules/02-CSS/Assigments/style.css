@@ -1,0 +1,29 @@
+.breadcrumb{
+    padding: 20px 40px;
+    list-style-type: none;
+    background-color: rgba(227, 94, 163, 0.54);
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    text-align: center;
+}
+
+.breadcrumb li+li::before{
+    padding: 10px;
+    color: black;
+    content: "/\00a0";
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(152, 39, 50, 0.73);
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: rgba(83, 23, 29, 0.73);
+}
